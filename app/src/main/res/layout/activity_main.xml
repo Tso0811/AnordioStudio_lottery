@@ -7,10 +7,19 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_CreateNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="產生數字"
+        android:textSize="30dp"
+        android:onClick="mainFun"
+        />
+
     <TextView
         android:id="@+id/txv"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_height="398dp"
         android:gravity="center"
         android:text="test test "
         android:textSize="30dp"
@@ -19,6 +28,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
+        />
+
+    <Button
+        android:id="@+id/btn_ClearNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歸零"
+        android:textSize="30dp"
+        android:onClick="mainFun"
         />
 
 
